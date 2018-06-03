@@ -41,12 +41,13 @@ window.onload = function() {
     const postBtn = select('#postBtn')
     // postBtn.addEventListener('click', e => createPost(postObject))
     postBtn.addEventListener('click', function() {
-        
+        let parents = select('#allPosts')
+        parents.appendChild(createPost(postObject))
+		
         nameField.value = ''
         contentField.value = ''
 
-        let parents = select('#allPosts')
-        parents.appendChild(createPost(postObject))
+       
     })
 
 

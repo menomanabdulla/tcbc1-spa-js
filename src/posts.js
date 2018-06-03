@@ -156,16 +156,14 @@ function createSingleComment(comment) {
   return commentElement;
 }
 
-function createBtn(name, count) {
+function createBtn(name,count){
   let btn = create("button", { class: "btn mx-3" });
   btn.innerHTML = name;
-
-  if (count) {
+  if (count){
     let span = create("span", { class: "pill ml-1" });
     span.innerHTML = count;
     btn.appendChild(span);
   }
-
   return btn;
 }
 
