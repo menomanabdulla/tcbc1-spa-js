@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "avatar": "NA",
+      "bgColor": "#9e8fb2",
+      "content": "Hello World :)",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": 48,
+      "username": "Noman Abdulla",
+      "id": 1
+    },
+    {
+      "avatar": "JD",
+      "bgColor": "#fce043",
+      "content": "Hello From John Doe",
+      "fontFamily": "Arial, Helvetica, sans-serif",
+      "fontSize": 32,
+      "username": "John Doe",
+      "id": 2
+    },
+    {
+      "username": "mic lorense",
+      "avatar": "ML",
+      "content": "i am mic lorence form Canada ",
+      "fontFamily": "'Times New Roman', Times, serif",
+      "fontSize": "36",
+      "bgColor": "#0cbaba",
+      "id": 3
+    }
+  ]
+}

@@ -2,6 +2,10 @@ export function select (selector) {
     return document.querySelector(selector)
 }
 
+export function selectall (selector) {
+    return document.querySelectorAll(selector)
+}
+
 
 export function create () {
 
